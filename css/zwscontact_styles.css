@@ -1,0 +1,115 @@
+.zwsc-required {font-size: 12px; text-align: right; color: #4f4f4f;}
+.zwsc-asterisk {color: #ff0000;}
+.zwsc-table tr:nth-child(even) {
+    background-color: #fff9ee;
+}
+
+.zwsc-table tr:nth-child(odd) {
+    background-color: white;
+}
+.zwsc-configuration-form {
+    font-family: Arial,Helvetica,sans-serif;
+}
+.zwsc-configuration-form label {margin-right: 10px;}
+.zwsc-configuration-form input {width: auto !important;}
+.zwsc-configuration-form h3 {font-size: 15px !important;}
+.zwsc-configuration-form button, .zwsc-configuration-form button[disabled]:hover, .zwsc-configuration-form button[disabled]:focus, .zwsc-configuration-form input[type="button"], .zwsc-configuration-form input[type="button"][disabled]:hover, .zwsc-configuration-form input[type="button"][disabled]:focus, .zwsc-configuration-form input[type="reset"], input[type="reset"][disabled]:hover, .zwsc-configuration-form input[type="reset"][disabled]:focus, .zwsc-configuration-form input[type="submit"], .zwsc-configuration-form input[type="submit"][disabled]:hover, .zwsc-configuration-form input[type="submit"][disabled]:focus {
+    background: #1a1a1a none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Montserrat,"Helvetica Neue",sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.84375em 0.875em 0.78125em;
+    text-transform: uppercase;
+}
+.zwsc-configuration-form button:hover, .zwsc-configuration-form button:focus, .zwsc-configuration-form input[type="button"]:hover, .zwsc-configuration-form input[type="button"]:focus, .zwsc-configuration-form input[type="reset"]:hover, .zwsc-configuration-form input[type="reset"]:focus, .zwsc-configuration-form input[type="submit"]:hover, .zwsc-configuration-form input[type="submit"]:focus {
+    background: #007acc none repeat scroll 0 0;
+    cursor: pointer;
+}
+.zwsc-configuration-form tr:nth-child(even) {
+    background-color: #fff9ee;
+}
+
+.zwsc-configuration-form tr:nth-child(odd) {
+    background-color: white;
+}
+.zwsc_form_error_msg {color: #ff0000; display: block; margin-top: 5px; font-size: 14px;}
+
+label {font-family: Merriweather, Georgia, serif; color: #686868; font-size: 15px;}
+
+/*======= Styles copied from twentysixteen theme =======*/
+button,
+input,
+select,
+textarea {
+    color: #1a1a1a;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    background: #1a1a1a;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.84375em 0.875em 0.78125em;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    background: #f7f7f7;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    padding: 0.625em 0.4375em;
+    width: 100%;
+}
+
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #007acc;
+}
+
+/*======= Media Query =======*/
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+}
